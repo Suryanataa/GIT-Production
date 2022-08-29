@@ -1,0 +1,16 @@
+.bg-hd {
+	background-color: #f5f6f7;
+}
+
+.bg-rounded {
+	background-color: #eeeeee;
+}
+
+.bg-rounded-hero {
+	background-color: #eff0f4;
+	border-radius: 99%;
+}
+
+.hero-text {
+	font: size 1000px;
+}
