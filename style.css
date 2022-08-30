@@ -1,189 +1,189 @@
 .bg-hd {
-    background-color: #f5f6f7;
+	background-color: #f5f6f7;
 }
 
 .bg-rounded {
-    background-color: #eeeeee;
+	background-color: #eeeeee;
 }
 
 .bg-rounded-hero {
-    background-color: #eff0f4;
-    border-radius: 99%;
+	background-color: #eff0f4;
+	border-radius: 99%;
 }
 
 .hero-text {
-    font: size 1000px;
+	font: size 1000px;
 }
 
 .hero-produk {
-    height: 560px;
-    margin-bottom: 96px;
+	height: 560px;
+	margin-bottom: 96px;
 }
 
-.font-hero-produk {
-    font-size: 64px;
+.bg-git {
+	background-color: #f7f9f9;
 }
 
 .btn-hero-produk {
-    padding: 10px;
-    background-color: #2377fc;
-    color: white;
-    border: white;
-    border-radius: 48px;
-    padding-left: 30px;
-    padding-right: 30px;
+	padding: 10px;
+	background-color: #2377fc;
+	color: white;
+	border: white;
+	border-radius: 48px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .about-git {
-    margin-bottom: 96px;
+	margin-bottom: 96px;
 }
 
 @media only screen and (min-width: 1440px) {
-    .div-git {
-        display: flex;
-        justify-content: center;
-    }
+	.div-git {
+		display: flex;
+		justify-content: center;
+	}
 }
 @media only screen and (min-width: 1024px) {
-    .div-git {
-        display: flex;
-        justify-content: center;
-    }
+	.div-git {
+		display: flex;
+		justify-content: center;
+	}
 }
 @media only screen and (min-width: 768px) {
-    .div-git {
-        display: flex;
-        justify-content: center;
-    }
+	.div-git {
+		display: flex;
+		justify-content: center;
+	}
 }
 @media only screen and (max-width: 375px) {
-    .font-hero-produk {
-        max-width: 300px;
-    }
-    .div-git {
-        margin-bottom: 40px;
-    }
+	.font-hero-produk {
+		max-width: 300px;
+	}
+	.div-git {
+		margin-bottom: 40px;
+	}
 }
 
 .font-about {
-    color: #313336;
-    font-size: 22px;
+	color: #313336;
+	font-size: 22px;
 }
 
 .btn-card {
-    width: 140px;
-    border-radius: 48px;
-    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #313336;
+	width: 140px;
+	border-radius: 48px;
+	box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #313336;
 }
 
 .div-card {
-    margin-top: 40px;
+	margin-top: 40px;
 }
 
 @media only screen and (max-width: 1440px) {
-    .img-card {
-        width: 425px;
-        height: 425px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    .img-card-adjust {
-        width: 370px;
-        height: 370px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+	.img-card {
+		width: 425px;
+		height: 425px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.img-card-adjust {
+		width: 370px;
+		height: 370px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
 
-    .card {
-        background-color: #f5f6f7;
-        border-radius: 16px;
-        width: 600px;
-        height: 560px;
-        position: relative;
-        border: white;
-    }
+	.card {
+		background-color: #f5f6f7;
+		border-radius: 16px;
+		width: 600px;
+		height: 560px;
+		position: relative;
+		border: white;
+	}
 
-    .font-card {
-        font-size: 30px;
-        padding-top: 3px;
-    }
+	.font-card {
+		font-size: 30px;
+		padding-top: 3px;
+	}
 }
 
 @media only screen and (max-width: 1024px) {
-    .img-card {
-        width: 330px;
-        height: 310px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    .img-card-adjust {
-        width: 290px;
-        height: 280px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+	.img-card {
+		width: 330px;
+		height: 310px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.img-card-adjust {
+		width: 290px;
+		height: 280px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
 
-    .font-card {
-        font-size: 26px;
-        max-width: 140px;
-        padding-top: 0;
-        padding-bottom: 20px;
-    }
+	.font-card {
+		font-size: 26px;
+		max-width: 140px;
+		padding-top: 0;
+		padding-bottom: 20px;
+	}
 
-    .card {
-        background-color: #f5f6f7;
-        border-radius: 16px;
-        width: 400px;
-        height: 560px;
-        position: relative;
-        border: white;
-    }
+	.card {
+		background-color: #f5f6f7;
+		border-radius: 16px;
+		width: 400px;
+		height: 560px;
+		position: relative;
+		border: white;
+	}
 }
 
 @media only screen and (max-width: 1024px) {
-    .img-card {
-        width: 210px;
-        height: 250px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    .img-card-adjust {
-        width: 180px;
-        height: 220px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+	.img-card {
+		width: 210px;
+		height: 250px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.img-card-adjust {
+		width: 180px;
+		height: 220px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
 
-    .font-card {
-        font-size: 26px;
-        max-width: 140px;
-        padding-top: 0;
-        padding-bottom: 20px;
-    }
+	.font-card {
+		font-size: 26px;
+		max-width: 140px;
+		padding-top: 0;
+		padding-bottom: 20px;
+	}
 
-    .card {
-        background-color: #f5f6f7;
-        border-radius: 16px;
-        width: 285px;
-        height: 475px;
-        position: relative;
-        border: white;
-    }
+	.card {
+		background-color: #f5f6f7;
+		border-radius: 16px;
+		width: 285px;
+		height: 475px;
+		position: relative;
+		border: white;
+	}
 }
