@@ -6,13 +6,17 @@
 	background-color: #eeeeee;
 }
 
-.bg-rounded-hero {
-	background-color: #eff0f4;
-	border-radius: 99%;
+.bg-rounded:hover {
+	background-color: #e2e2e2;
 }
 
-.hero-text {
-	font: size 1000px;
+.hero {
+	padding-top: 60px;
+	padding-left: 80px;
+}
+
+.hero-home {
+	padding-right: 100px;
 }
 
 .hero-produk {
@@ -71,13 +75,10 @@
 }
 
 .btn-card {
-	width: 140px;
+	padding: 10px;
 	border-radius: 48px;
-	box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
 	background-color: #313336;
 }
 
@@ -186,4 +187,102 @@
 		position: relative;
 		border: white;
 	}
+}
+
+@media only screen and (max-width: 768px) {
+	.font-hero-produk {
+		font-size: 64px;
+	}
+	.img-card {
+		width: 210px;
+		height: 250px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.img-card-adjust {
+		width: 180px;
+		height: 220px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.font-card {
+		font-size: 26px;
+		padding-top: 0;
+		padding-bottom: 20px;
+	}
+
+	.card {
+		background-color: #f5f6f7;
+		border-radius: 16px;
+		width: 285px;
+		height: 475px;
+		position: relative;
+		border: white;
+	}
+
+	.text-git {
+		font-size: 10px;
+	}
+}
+
+.link-footer {
+	text-decoration: none;
+}
+
+.visi {
+	margin-top: 267px;
+	padding-right: 200px;
+}
+
+.visi-img {
+	margin-top: 320px;
+}
+
+.kinerja {
+	padding-top: 82px;
+}
+
+.kinerja-text {
+	padding-right: 280px;
+	margin-top: 150px;
+	margin-left: 90px;
+}
+
+.bulat {
+	margin-left: 625px;
+}
+
+.bulat1 {
+	margin-top: 210px;
+	margin-bottom: 24px;
+	border-radius: 100%;
+	height: 24px;
+	background-color: #439ffe;
+	z-index: 100;
+}
+.bulat2 {
+	margin-bottom: 24px;
+	border-radius: 100%;
+	height: 24px;
+	background-color: #d38bff;
+	z-index: 100;
+}
+.bulat3 {
+	margin-bottom: 24px;
+	border-radius: 100%;
+	height: 24px;
+	background-color: #ef799c;
+	z-index: 100;
+}
+.bulat4 {
+	margin-bottom: 24px;
+	border-radius: 100%;
+	height: 24px;
+	background-color: #9dda6e;
+	z-index: 100;
 }
