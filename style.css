@@ -24,6 +24,10 @@
 	margin-bottom: 96px;
 }
 
+.font-hero-produk {
+	font-size: 72px;
+}
+
 .bg-git {
 	background-color: #f7f9f9;
 }
@@ -97,7 +101,7 @@
 	}
 	.img-card-adjust {
 		width: 370px;
-		height: 370px;
+		height: 330px;
 		position: absolute;
 		top: 50%;
 		left: 50%;
@@ -116,6 +120,41 @@
 	.font-card {
 		font-size: 30px;
 		padding-top: 3px;
+	}
+}
+
+@media only screen and (max-width: 1280px) {
+	.img-card {
+		width: 420px;
+		height: 420px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.img-card-adjust {
+		width: 260px;
+		height: 255px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.font-card {
+		font-size: 26px;
+		max-width: auto;
+		padding-top: 0;
+		padding-bottom: 20px;
+	}
+
+	.card {
+		background-color: #f5f6f7;
+		border-radius: 16px;
+		width: 500px;
+		height: 500px;
+		position: relative;
+		border: white;
 	}
 }
 
