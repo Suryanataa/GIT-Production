@@ -46,6 +46,277 @@
 	margin-bottom: 96px;
 }
 
+.font-about {
+	color: #313336;
+	font-size: 22px;
+}
+
+.btn-card {
+	padding: 10px;
+	border-radius: 48px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #313336;
+}
+
+.div-card {
+	margin-top: 40px;
+}
+
+.link-footer {
+	text-decoration: none;
+}
+
+.visi {
+	margin-top: 267px;
+	padding-right: 200px;
+}
+
+.visi-img {
+	margin-top: 320px;
+}
+
+.kinerja {
+	padding-top: 82px;
+}
+
+.kinerja-text {
+	padding-right: 280px;
+	margin-top: 150px;
+	margin-left: 90px;
+}
+
+.bulat {
+	margin-left: 625px;
+}
+
+.bulat1 {
+	margin-top: 210px;
+	margin-bottom: 24px;
+	border-radius: 100%;
+	height: 24px;
+	background-color: #439ffe;
+	z-index: 100;
+}
+.bulat2 {
+	margin-bottom: 24px;
+	border-radius: 100%;
+	height: 24px;
+	background-color: #d38bff;
+	z-index: 100;
+}
+.bulat3 {
+	margin-bottom: 24px;
+	border-radius: 100%;
+	height: 24px;
+	background-color: #ef799c;
+	z-index: 100;
+}
+.bulat4 {
+	margin-bottom: 24px;
+	border-radius: 100%;
+	height: 24px;
+	background-color: #9dda6e;
+	z-index: 100;
+}
+
+.judul-jasa {
+	margin: 0 330px;
+}
+
+.jasa-bg {
+	background-color: #f7f7f980;
+}
+
+.text-jasa {
+	padding: 0 140px;
+}
+
+.jasa {
+	margin: 0 150px;
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+
+.text-jasa-foto {
+	padding: 0 100px;
+}
+
+.bg-nav {
+	background-color: #fcfdfe;
+	padding-bottom: 50px;
+}
+
+.bg-ui {
+	background-color: #e4edf0;
+	padding-left: 50px;
+	height: 825px;
+	top: 12px;
+}
+.profil {
+	background-color: #fcfdfe;
+	padding-bottom: 50px;
+}
+.h1 {
+	font-size: 72px;
+	font-weight: 600px;
+}
+.h3 {
+	font-size: 32px;
+	font-weight: 600px;
+}
+.h5 {
+	font-size: 22px;
+	font-weight: 500px;
+	line-height: 32px;
+}
+.p {
+	font-size: 16px;
+	font-weight: 500px;
+	color: #787f84;
+	letter-spacing: -0.01em;
+	line-height: 28px;
+}
+
+.p-kontak {
+	font-size: 22px;
+	font-weight: 500px;
+	letter-spacing: -0.01em;
+	line-height: 28px;
+}
+.fm {
+	background-color: #f5f6f7;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 16px;
+	gap: 8px;
+
+	width: 968px;
+	height: 82px;
+	border-radius: 8px;
+
+	margin-bottom: 25px;
+	justify-content: center;
+	padding-left: 60px;
+}
+.fmt {
+	padding: 28px 50px;
+	gap: 8px;
+
+	width: 968px;
+	height: 210px;
+
+	background: #f5f6f7;
+	border-radius: 8px;
+}
+.bnt {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 25px 50px;
+	gap: 8px;
+
+	width: 116px;
+	height: 48px;
+
+	background: #2377fc;
+	box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+	border-radius: 48px;
+	margin-bottom: 150px;
+	margin-left: 160px;
+}
+
+.icon {
+	margin-left: 160px;
+	position: relative;
+}
+
+.icon-img {
+	position: absolute;
+	left: 0;
+	top: 8px;
+	padding: 26px 22px;
+}
+.icon-img-nama {
+	position: absolute;
+	left: 0;
+	top: 8px;
+	padding: 22px 22px;
+}
+
+.judul-mitra {
+	margin-top: 200px;
+	margin-bottom: 40px;
+}
+
+.form-mitra {
+	background-color: #f5f6f7;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 16px;
+	gap: 8px;
+
+	width: 360px;
+	height: 56px;
+	border-radius: 8px;
+
+	margin-bottom: 25px;
+	justify-content: center;
+	padding-left: 55px;
+}
+
+.icon-mitra {
+	position: absolute;
+	left: 0;
+	top: 8px;
+	padding: 10px 30px;
+	margin-left: 457px;
+}
+.icon-mitra1 {
+	position: absolute;
+	left: 0;
+	top: 8px;
+	padding: 14px 30px;
+	margin-left: 457px;
+}
+
+.icon-m {
+	/* margin-left: 460px; */
+	position: relative;
+}
+
+.btn-mitra {
+	margin-left: 10px;
+	padding: 10px 165px;
+	margin-bottom: 200px;
+}
+
+/* responsive home page */
+@media only screen and (min-width: 1440px) {
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+}
+/* akhir responsive home page */
+
+/* responsive profil */
+@media only screen and (min-width: 1440px) {
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+}
+/* akhir responsive profil */
+
+/* responsive produk */
 @media only screen and (min-width: 1440px) {
 	.div-git {
 		display: flex;
@@ -68,23 +339,6 @@
 	.div-git {
 		margin-bottom: 40px;
 	}
-}
-
-.font-about {
-	color: #313336;
-	font-size: 22px;
-}
-
-.btn-card {
-	padding: 10px;
-	border-radius: 48px;
-	padding-left: 20px;
-	padding-right: 20px;
-	background-color: #313336;
-}
-
-.div-card {
-	margin-top: 40px;
 }
 
 @media only screen and (min-width: 1440px) {
@@ -451,6 +705,9 @@
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+	.logo-git {
+		display: none;
+	}
 	.font-hero-produk {
 		font-size: 48px;
 	}
@@ -583,158 +840,15 @@
 		transform: translate(-50%, -50%);
 	}
 }
+/* akhir responsive produk */
 
-.link-footer {
-	text-decoration: none;
+/* responsive kontak */
+@media only screen and (min-width: 1440px) {
 }
-
-.visi {
-	margin-top: 267px;
-	padding-right: 200px;
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
 }
-
-.visi-img {
-	margin-top: 320px;
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
 }
-
-.kinerja {
-	padding-top: 82px;
+@media only screen and (min-width: 0px) and (max-width: 767px) {
 }
-
-.kinerja-text {
-	padding-right: 280px;
-	margin-top: 150px;
-	margin-left: 90px;
-}
-
-.bulat {
-	margin-left: 625px;
-}
-
-.bulat1 {
-	margin-top: 210px;
-	margin-bottom: 24px;
-	border-radius: 100%;
-	height: 24px;
-	background-color: #439ffe;
-	z-index: 100;
-}
-.bulat2 {
-	margin-bottom: 24px;
-	border-radius: 100%;
-	height: 24px;
-	background-color: #d38bff;
-	z-index: 100;
-}
-.bulat3 {
-	margin-bottom: 24px;
-	border-radius: 100%;
-	height: 24px;
-	background-color: #ef799c;
-	z-index: 100;
-}
-.bulat4 {
-	margin-bottom: 24px;
-	border-radius: 100%;
-	height: 24px;
-	background-color: #9dda6e;
-	z-index: 100;
-}
-
-.judul-jasa {
-	margin: 0 330px;
-}
-
-.jasa-bg {
-	background-color: #f7f7f980;
-}
-
-.text-jasa {
-	padding: 0 140px;
-}
-
-.jasa {
-	margin: 0 150px;
-	padding-top: 150px;
-	padding-bottom: 100px;
-}
-
-.text-jasa-foto {
-	padding: 0 100px;
-}
-
-.bg-nav {
-	background-color: #fcfdfe;
-	padding-bottom: 50px;
-}
-
-.bg-ui {
-	background-color: #e4edf0;
-	padding-left: 50px;
-	height: 825px;
-	top: 12px;
-}
-.profil {
-	background-color: #fcfdfe;
-	padding-bottom: 50px;
-}
-.h1 {
-	font-size: 72px;
-	font-weight: 600px;
-}
-.h3 {
-	font-size: 32px;
-	font-weight: 600px;
-}
-.h5 {
-	font-size: 22px;
-	font-weight: 500px;
-	line-height: 32px;
-}
-.p {
-	font-size: 16px;
-	font-weight: 500px;
-	color: #787f84;
-	letter-spacing: -0.01em;
-	line-height: 28px;
-}
-.fm {
-	background-color: #f5f6f7;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	padding: 16px;
-	gap: 8px;
-
-	width: 968px;
-	height: 82px;
-	border-radius: 8px;
-
-	margin-bottom: 25px;
-	justify-content: center;
-}
-.fmt {
-	padding: 16px;
-	gap: 8px;
-
-	width: 968px;
-	height: 210px;
-
-	background: #f5f6f7;
-	border-radius: 8px;
-}
-.bnt {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	padding: 25px 50px;
-	gap: 8px;
-
-	width: 116px;
-	height: 48px;
-
-	background: #2377fc;
-	box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-	border-radius: 48px;
-}
+/* akhir responsive kontak */
