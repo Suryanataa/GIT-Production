@@ -12,33 +12,30 @@
 	<body>
 		<!-- Navbar -->
 		<div class="bg-hd">
-			<nav class="navbar navbar-expand-lg border-bottom border-dark border-opacity-10 ms-5 me-5">
+			<nav class="navbar navbar-expand-lg border-bottom border-opacity-10 ms-0 me-0 ms-lg-5 me-lg-5">
 				<div class="container-fluid">
-					<a class="navbar-brand" href="index.html">
-						<img src="./asset/imghome/GIT Logo III.png" alt="logo" width="68" height="55" class="me-3" />
-						<img src="./asset/imghome/GIT Garda Integra Teknologi.png" alt="logo text" width="50" height="25" class="mt-1 logo-git" />
+					<a class="navbar-brand" href="#">
+						<img src="./asset/imghome/GIT Logo III.png" alt="" width="68" height="55" />
+						<img src="./asset/imghome/GIT Garda Integra Teknologi.png" alt="" width="50" height="25" class="logo-git ms-3" />
 					</a>
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
-
-					<div class="d-flex">
-						<div class="collapse navbar-collapse" id="navbarSupportedContent">
-							<ul class="navbar-nav me-auto mb-2 mb-lg-0 mt-2">
-								<li class="nav-item">
-									<a class="nav-link ms-3 px-3 py-1 rounded-pill bg-rounded" aria-current="page" href="index.html"><h6 class="pt-1">Home</h6></a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link ms-3" href="Profil.html"><h6>Profil</h6></a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link ms-4" href="produk.html"><h6>Produk</h6></a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link ms-4 me-2" href="kontak.html"><h6>Kontak</h6></a>
-								</li>
-							</ul>
-						</div>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0 mt-2 navigasi">
+							<li class="nav-item">
+								<a class="nav-link ms-lg-3 px-3 py-1 rounded-pill bg-rounded" aria-current="page" href="index.html"><h6 class="pt-1">Home</h6></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link ms-lg-3" href="Profil.html"><h6>Profil</h6></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link ms-lg-4" href="produk.html"><h6>Produk</h6></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link ms-lg-3" href="kontak.html"><h6>Kontak</h6></a>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</nav>
@@ -47,29 +44,31 @@
 
 		<!-- hero -->
 		<div class="bg-hd pt-5 mb-5">
-			<div class="d-flex">
+			<div class="d-lg-flex d-block">
 				<div class="container">
 					<div class="row">
 						<div class="col-6 hero">
 							<div class="row">
-								<h1 class="fw-bolder me-5" style="font-size: 72px">Mitra terbaik proyek IT anda</h1>
+								<h1 class="fw-bolder me-lg-5 font-home">Mitra terbaik proyek IT anda</h1>
 							</div>
 							<div class="row">
 								<h4 class="opacity-50 hero-home pt-4">Penyedia layanan produk Sistem Informasi, Jaringan data dan Mekanikal Elektrikal</h4>
 							</div>
 						</div>
-						<div class="col-6">
-							<img src="./asset/imghome/hero.png" alt="hero" />
+						<div class="col-7 col-lg-6">
+							<img src="./asset/imghome/hero.svg" alt="hero" class="home-img" />
 						</div>
 					</div>
 
 					<div class="row mb-5">
 						<div class="container mb-4">
 							<div class="row">
-								<div class="col d-flex ms-5">
-									<button class="btn bg-rounded rounded-circle me-3">
-										<i class="bi bi-arrow-down"></i>
-									</button>
+								<div class="col ms-5">
+									<a href="#hero">
+										<button class="btn bg-rounded rounded-circle me-3">
+											<i class="bi bi-arrow-down"></i>
+										</button>
+									</a>
 									<p class="mx-1 my-2">Scroll down</p>
 								</div>
 							</div>
@@ -85,7 +84,7 @@
 			<!-- judul -->
 			<div class="row">
 				<div class="col">
-					<div class="fs-1 fw-bold text-center mt-5">Garda Integra Teknologi (GIT)</div>
+					<div class="fs-1 fw-bold text-center mt-5" id="hero">Garda Integra Teknologi (GIT)</div>
 				</div>
 			</div>
 
@@ -97,7 +96,7 @@
 			<!-- akhir judul -->
 			<!-- visi misi -->
 			<div class="container bg-git rounded-4 mb-5">
-				<div class="d-flex">
+				<div class="d-lg-flex d-block">
 					<div class="col-6">
 						<div class="row my-5 mx-4 container">
 							<div class="row">
@@ -105,16 +104,17 @@
 							</div>
 
 							<div class="row">
-								<h5 class="fw-semibold opacity-50 visi">
-									Garda Integra Teknologi merupakan perusahaan independent, Inovatif juga kompetitif yang didukung oleh sumber daya manusia profesional, handal berfokus pada bidang informasi teknologi, jaringan data, mekanikal elektrikal.
-								</h5>
-							</div>
-
-							<div class="row visi-img">
 								<div class="col">
+									<h5 class="fw-semibold opacity-50 visi">
+										Garda Integra Teknologi merupakan perusahaan independent, Inovatif juga kompetitif yang didukung oleh sumber daya manusia profesional, handal berfokus pada bidang informasi teknologi, jaringan data, mekanikal elektrikal.
+									</h5>
+								</div>
+								<div class="logo-kecil">
 									<img src="./asset/imghome/GIT Logo visi.png" alt="GIT" />
 								</div>
 							</div>
+
+							<!-- <div class="row visi-img"></div> -->
 						</div>
 					</div>
 					<div class="col-6 border-start">
@@ -172,29 +172,25 @@
 
 			<!-- kinerja -->
 			<div class="container bg-git rounded-4 mb-5">
-				<div class="d-flex">
+				<div class="container d-lg-flex">
 					<div class="col-6">
 						<div class="row">
 							<h2 class="fw-bold kinerja-text">Dengan kinerja yang baik dalam menyelesaikan jadwal berbagai proyek IT. GIT mendapatkan akses luas serta kepercayaan penuh dari para vendor peralatan TIK.</h2>
 						</div>
 					</div>
-					<div class="row d-lg-block position-absolute bulat">
+					<div class="col-6 text-center kinerja border-start">
+						<img src="./asset/imghome/kinerja-git.png" alt="logo git" class="lg-git" />
+					</div>
+					<div class="position-absolute bulat">
 						<div class="bulat1"></div>
 						<div class="bulat2"></div>
 						<div class="bulat3"></div>
 						<div class="bulat4"></div>
 					</div>
-					<div class="col-6 text-center kinerja border-start">
-						<img src="./asset/imghome/kinerja-git.png" alt="logo git" />
-					</div>
 				</div>
 			</div>
-			<!-- akhir kinerja -->
-
-			<!-- judul jasa instalasi -->
-
-			<!-- akhir judul jasa instalasi -->
 		</div>
+		<!-- akhir kinerja -->
 		<!-- Akhir GIT -->
 
 		<!-- jasa instalasi-->
@@ -209,50 +205,51 @@
 
 		<!-- jasa instalasi -->
 		<div class="jasa-bg">
-			<div class="container jasa mt-5">
-				<div class="row">
+			<div class="jasa mt-5">
+				<div class="row d-block d-lg-flex">
 					<div class="col-6 pt-5">
-						<img src="./asset/imghome/jasa listrik.png" alt="jasa1" />
+						<img src="./asset/imghome/jasa listrik.svg" alt="jasa1" class="jasa-img" />
 					</div>
 					<div class="col-6">
-						<div class="row">
-							<div class="fs-2 text-jasa fw-bold">Jasa Instalasi Listrik, Mekanikal dan Telekomunikasi</div>
-						</div>
-
-						<div class="row text-jasa">
-							<div class="col d-flex mt-5 border-top">
-								<img src="./asset/imghome/search.png" alt="logo search" class="mt-4" />
-								<div class="fs-6 fw-bold ms-4 mt-4">Survey, Design, Planning</div>
+						<div class="container">
+							<div class="row">
+								<div class="fs-2 text-jasa fw-bold">Jasa Instalasi Listrik, Mekanikal dan Telekomunikasi</div>
 							</div>
-						</div>
-						<div class="row text-jasa">
-							<div class="col d-flex mt-4 border-top">
-								<img src="./asset/imghome/outside.png" alt="logo search" class="mt-4" />
-								<div class="fs-6 fw-bold ms-4 mt-4">Outside Plan OSP</div>
+							<div class="row text-jasa">
+								<div class="col d-flex mt-5 border-top">
+									<img src="./asset/imghome/search.png" alt="logo search" class="mt-4" />
+									<div class="fs-6 fw-bold ms-4 mt-4">Survey, Design, Planning</div>
+								</div>
 							</div>
-						</div>
-						<div class="row text-jasa">
-							<div class="col d-flex mt-4 border-top">
-								<img src="./asset/imghome/inside.png" alt="logo search" class="mt-4" />
-								<div class="fs-6 fw-bold ms-4 mt-4">Inside Plant (ISP)</div>
+							<div class="row text-jasa">
+								<div class="col d-flex mt-4 border-top">
+									<img src="./asset/imghome/outside.png" alt="logo search" class="mt-4" />
+									<div class="fs-6 fw-bold ms-4 mt-4">Outside Plan OSP</div>
+								</div>
 							</div>
-						</div>
-						<div class="row text-jasa">
-							<div class="col d-flex mt-4 border-top">
-								<img src="./asset/imghome/instalasi.png" alt="logo search" class="mt-4" />
-								<div class="fs-6 fw-bold ms-4 mt-4">Instalasi Elektronika</div>
+							<div class="row text-jasa">
+								<div class="col d-flex mt-4 border-top">
+									<img src="./asset/imghome/inside.png" alt="logo search" class="mt-4" />
+									<div class="fs-6 fw-bold ms-4 mt-4">Inside Plant (ISP)</div>
+								</div>
 							</div>
-						</div>
-						<div class="row text-jasa">
-							<div class="col d-flex mt-4 border-top">
-								<img src="./asset/imghome/maintenance.png" alt="logo search" class="mt-4" />
-								<div class="fs-6 fw-bold ms-4 mt-4">Maintenance</div>
+							<div class="row text-jasa">
+								<div class="col d-flex mt-4 border-top">
+									<img src="./asset/imghome/instalasi.png" alt="logo search" class="mt-4" />
+									<div class="fs-6 fw-bold ms-4 mt-4">Instalasi Elektronika</div>
+								</div>
 							</div>
-						</div>
-						<div class="row text-jasa">
-							<div class="col d-flex mt-4 border-top">
-								<img src="./asset/imghome/network.png" alt="logo search" class="mt-4" />
-								<div class="fs-6 fw-bold ms-4 mt-4">Network Manage Service</div>
+							<div class="row text-jasa">
+								<div class="col d-flex mt-4 border-top">
+									<img src="./asset/imghome/maintenance.png" alt="logo search" class="mt-4" />
+									<div class="fs-6 fw-bold ms-4 mt-4">Maintenance</div>
+								</div>
+							</div>
+							<div class="row text-jasa">
+								<div class="col d-flex mt-4 border-top">
+									<img src="./asset/imghome/network.png" alt="logo search" class="mt-4" />
+									<div class="fs-6 fw-bold ms-4 mt-4">Network Manage Service</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -260,38 +257,40 @@
 			</div>
 			<!-- akhir jasa instalasi -->
 			<!-- perdagangan -->
-			<div class="container jasa mt-5">
-				<div class="row">
+			<div class="jasa mt-5">
+				<div class="d-block d-lg-flex">
 					<div class="col-6">
-						<img src="./asset/imghome/perdagangan.png" alt="jasa1" />
+						<img src="./asset/imghome/perdagangan.svg" alt="jasa1" class="jasa-img" />
 					</div>
 					<div class="col-6">
-						<div class="row">
-							<div class="fs-2 text-jasa fw-bold">Perdagangan</div>
-						</div>
+						<div class="container">
+							<div class="row">
+								<div class="fs-2 text-jasa fw-bold">Perdagangan</div>
+							</div>
 
-						<div class="row text-jasa">
-							<div class="col d-flex mt-5 border-top">
-								<img src="./asset/imghome/suku cadang.png" alt="logo search" class="mt-4" />
-								<div class="fs-6 fw-bold ms-4 mt-4">Suku Cadang Elektronik</div>
+							<div class="row text-jasa">
+								<div class="col d-flex mt-5 border-top">
+									<img src="./asset/imghome/suku cadang.png" alt="logo search" class="mt-4" />
+									<div class="fs-6 fw-bold ms-4 mt-4">Suku Cadang Elektronik</div>
+								</div>
 							</div>
-						</div>
-						<div class="row text-jasa">
-							<div class="col d-flex mt-4 border-top">
-								<img src="./asset/imghome/telekomunikasi.png" alt="logo search" class="mt-4" />
-								<div class="fs-6 fw-bold ms-4 mt-4">Alat Telekomunikasi</div>
+							<div class="row text-jasa">
+								<div class="col d-flex mt-4 border-top">
+									<img src="./asset/imghome/telekomunikasi.png" alt="logo search" class="mt-4" />
+									<div class="fs-6 fw-bold ms-4 mt-4">Alat Telekomunikasi</div>
+								</div>
 							</div>
-						</div>
-						<div class="row text-jasa">
-							<div class="col d-flex mt-4 border-top">
-								<img src="./asset/imghome/software.png" alt="logo search" class="mt-4" />
-								<div class="fs-6 fw-bold ms-4 mt-4">Software/ Aplikasi</div>
+							<div class="row text-jasa">
+								<div class="col d-flex mt-4 border-top">
+									<img src="./asset/imghome/software.png" alt="logo search" class="mt-4" />
+									<div class="fs-6 fw-bold ms-4 mt-4">Software/ Aplikasi</div>
+								</div>
 							</div>
-						</div>
-						<div class="row text-jasa">
-							<div class="col d-flex mt-4 border-top">
-								<img src="./asset/imghome/komputer.png" alt="logo search" class="mt-4" />
-								<div class="fs-6 fw-bold ms-4 mt-4">Komputer Dan Perlengkapan</div>
+							<div class="row text-jasa">
+								<div class="col d-flex mt-4 border-top">
+									<img src="./asset/imghome/komputer.png" alt="logo search" class="mt-4" />
+									<div class="fs-6 fw-bold ms-4 mt-4">Komputer Dan Perlengkapan</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -299,38 +298,40 @@
 			</div>
 			<!-- akhir perdagangan -->
 			<!-- fotografi -->
-			<div class="container jasa mt-5">
-				<div class="row">
+			<div class="jasa mt-5">
+				<div class="row d-block d-lg-flex">
 					<div class="col-6">
-						<img src="./asset/imghome/fotografi.png" alt="jasa1" />
+						<img src="./asset/imghome/fotografi.svg" alt="jasa1" class="jasa-img" />
 					</div>
 					<div class="col-6">
-						<div class="row">
-							<div class="fs-2 text-jasa-foto fw-bold">Fotografi dan Desain Komunikasi Visual</div>
-						</div>
+						<div class="container">
+							<div class="row">
+								<div class="fs-2 text-jasa-foto fw-bold">Fotografi dan Desain Komunikasi Visual</div>
+							</div>
 
-						<div class="row text-jasa-foto">
-							<div class="col d-flex mt-5 border-top">
-								<img src="./asset/imghome/desain.png" alt="logo search" class="mt-4" />
-								<div class="fs-6 fw-bold ms-4 mt-4">Perancangan Desain dan Video Company Profile</div>
+							<div class="row text-jasa-foto">
+								<div class="col d-flex mt-5 border-top">
+									<img src="./asset/imghome/desain.png" alt="logo search" class="mt-4" />
+									<div class="fs-6 fw-bold ms-4 mt-4">Perancangan Desain dan Video Company Profile</div>
+								</div>
 							</div>
-						</div>
-						<div class="row text-jasa-foto">
-							<div class="col d-flex mt-4 border-top">
-								<img src="./asset/imghome/vidio media sosial.png" alt="logo search" class="mt-4" />
-								<div class="fs-6 fw-bold ms-4 mt-4">Video dan Gambar untuk konten Media Sosial</div>
+							<div class="row text-jasa-foto">
+								<div class="col d-flex mt-4 border-top">
+									<img src="./asset/imghome/vidio media sosial.png" alt="logo search" class="mt-4" />
+									<div class="fs-6 fw-bold ms-4 mt-4">Video dan Gambar untuk konten Media Sosial</div>
+								</div>
 							</div>
-						</div>
-						<div class="row text-jasa-foto">
-							<div class="col d-flex mt-4 border-top">
-								<img src="./asset/imghome/jasa vidio.png" alt="logo search" class="mt-4" />
-								<div class="fs-6 fw-bold ms-4 mt-4">Jasa Video Streaming dan Live View</div>
+							<div class="row text-jasa-foto">
+								<div class="col d-flex mt-4 border-top">
+									<img src="./asset/imghome/jasa vidio.png" alt="logo search" class="mt-4" />
+									<div class="fs-6 fw-bold ms-4 mt-4">Jasa Video Streaming dan Live View</div>
+								</div>
 							</div>
-						</div>
-						<div class="row text-jasa-foto">
-							<div class="col d-flex mt-4 border-top">
-								<img src="./asset/imghome/pembuatan web.png" alt="logo search" class="mt-4" />
-								<div class="fs-6 fw-bold ms-4 mt-4">Pembuatan Website</div>
+							<div class="row text-jasa-foto">
+								<div class="col d-flex mt-4 border-top">
+									<img src="./asset/imghome/pembuatan web.png" alt="logo search" class="mt-4" />
+									<div class="fs-6 fw-bold ms-4 mt-4">Pembuatan Website</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -346,39 +347,38 @@
 			<img src="asset/imghome/grayball.png" alt="" class="bulat-gray" />
 			<img src="asset/imghome/greenball.png" alt="" class="bulat-green" />
 			<img src="asset/imghome/kuning.png" alt="" class="bulat-yellow" />
-			<div class="container">
-			<div class="container judul-mitra text-center">
-				<div class="row">
-					<h1 class="fw-bold font-hero-produk">Siap bermitra</h1>
+			<div class="hero-produk">
+				<div class="container judul-mitra text-center">
+					<div class="row">
+						<h1 class="fw-bold font-hero-produk">Siap bermitra</h1>
+					</div>
+					<div class="row">
+						<h2>kirimkan nama dan alamat email anda pada kami</h2>
+					</div>
 				</div>
-				<div class="row">
-					<h2>kirimkan nama dan alamat email anda pada kami</h2>
-				</div>
-			</div>
-			<form >
+				<form>
+					<div class="container">
+						<div class="row">
+							<div class="icon-m d-flex justify-content-center">
+								<input type="text" name="nm" id="#" placeholder="Nama" class="form-control form-mitra" />
+								<img src="./asset/imgkontak/name.png" alt="nama" class="icon-mitra" />
+							</div>
+						</div>
+						<div class="row">
+							<div class="icon-m d-flex justify-content-center">
+								<input type="text" name="email" id="#" placeholder="Email" class="form-control form-mitra" />
+								<img src="./asset/imgkontak/Vector.png" alt="email" class="icon-mitra1" />
+							</div>
+						</div>
 
-				<div class="container">
-					<div class="row">
-						<div class="icon-m d-flex justify-content-center">
-							<input type="text" name="nm" id="#" placeholder="Nama" class="form-control form-mitra" />
-							<img src="./asset/imgkontak/name.png" alt="nama" class="icon-mitra" />
+						<div class="d-flex justify-content-center container">
+							<button class="btn btn-primary rounded-pill btn-mitra">Kirim</button>
 						</div>
-					</div>
-					<div class="row">
-						<div class="icon-m d-flex justify-content-center">
-							<input type="text" name="email" id="#" placeholder="Email" class="form-control form-mitra" />
-							<img src="./asset/imgkontak/Vector.png" alt="email" class="icon-mitra1" />
-						</div>
-					</div>
-					
-					<div class="d-flex justify-content-center container">
-						<button class="btn btn-primary rounded-pill btn-mitra">Kirim</button>
 					</div>
 				</form>
 			</div>
-		</div>
 		</section>
-		
+
 		<!-- akhir mitra -->
 
 		<!-- Footer -->
