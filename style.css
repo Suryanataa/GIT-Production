@@ -540,6 +540,56 @@
         left: 65%;
         transform: translate(-50%, -50%);
     }
+    .jasa-bg .row-jasa {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .jasa-bg .text-jasa {
+        text-align: left !important;
+        font-size: 48px !important;
+    }
+
+    .jasa-bg .jasa-img {
+        align-self: center !important;
+    }
+
+    .jasa-img-container {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .jasa-bg-content {
+        width: 609px;
+    }
+
+    .bulat-yellow {
+        position: absolute;
+        top: 2%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat-gray {
+        position: absolute;
+        top: 23%;
+        left: 17%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat-blue {
+        position: absolute;
+        top: 52%;
+        left: 22%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat-green {
+        position: absolute;
+        top: 43%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -628,6 +678,80 @@
     }
     .kinerja-text {
         margin-bottom: 100px;
+    }
+    .bulat-yellow {
+        position: absolute;
+        top: 2%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat-gray {
+        position: absolute;
+        top: 23%;
+        left: 17%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat-blue {
+        position: absolute;
+        top: 52%;
+        left: 22%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat-green {
+        position: absolute;
+        top: 43%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    }
+    .jasa-bg .row-jasa {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .jasa-bg .text-jasa {
+        text-align: left !important;
+        font-size: 48px !important;
+    }
+
+    .jasa-bg .jasa-img {
+        align-self: center !important;
+    }
+
+    .jasa-img-container {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .jasa-bg-content {
+        width: 609px;
+    }
+
+    .bulat-yellow {
+        position: absolute;
+        top: 2%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat-gray {
+        position: absolute;
+        top: 23%;
+        left: 17%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat-blue {
+        position: absolute;
+        top: 52%;
+        left: 22%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat-green {
+        position: absolute;
+        top: 43%;
+        left: 80%;
+        transform: translate(-50%, -50%);
     }
 }
 /* akhir responsive home page */
