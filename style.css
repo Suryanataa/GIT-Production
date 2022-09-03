@@ -1,1179 +1,1317 @@
 .bg-hd {
-	background-color: #f5f6f7;
+    background-color: #f5f6f7;
 }
 
 .bg-rounded {
-	background-color: #eeeeee;
+    background-color: #eeeeee;
 }
 
 .bg-rounded:hover {
-	background-color: #e2e2e2;
+    background-color: #e2e2e2;
 }
 
 .hero {
-	padding-top: 60px;
-	padding-left: 80px;
+    padding-top: 60px;
+    padding-left: 80px;
 }
 
 .hero-home {
-	padding-right: 100px;
+    padding-right: 100px;
 }
 
 .hero-produk {
-	height: 560px;
-	margin-bottom: 96px;
+    height: 560px;
+    margin-bottom: 96px;
 }
 
 .font-hero-produk {
-	font-size: 72px;
+    font-size: 72px;
 }
 
 .bg-git {
-	background-color: #f7f9f9;
+    background-color: #f7f9f9;
 }
 
 .btn-hero-produk {
-	padding: 10px;
-	background-color: #2377fc;
-	color: white;
-	border: white;
-	border-radius: 48px;
-	padding-left: 30px;
-	padding-right: 30px;
+    padding: 10px;
+    background-color: #2377fc;
+    color: white;
+    border: white;
+    border-radius: 48px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .about-git {
-	margin-bottom: 96px;
+    margin-bottom: 96px;
 }
 
 .font-about {
-	color: #313336;
-	font-size: 22px;
+    color: #313336;
+    font-size: 22px;
 }
 
 .btn-card {
-	padding: 10px;
-	border-radius: 48px;
-	padding-left: 20px;
-	padding-right: 20px;
-	background-color: #313336;
+    padding: 10px;
+    border-radius: 48px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #313336;
 }
 
 .div-card {
-	margin-top: 40px;
+    margin-top: 40px;
 }
 
 .link-footer {
-	text-decoration: none;
-}
-
-.visi {
-	margin-top: 267px;
-	padding-right: 200px;
+    text-decoration: none;
 }
 
 .visi-img {
-	margin-top: 320px;
-}
-
-.bulat {
-	z-index: 100;
-}
-
-.bulat2 {
-	margin-bottom: 24px;
-	border-radius: 100%;
-	height: 24px;
-	background-color: #d38bff;
-	z-index: 100;
-}
-.bulat3 {
-	margin-bottom: 24px;
-	border-radius: 100%;
-	height: 24px;
-	background-color: #ef799c;
-	z-index: 100;
-}
-.bulat4 {
-	margin-bottom: 24px;
-	border-radius: 100%;
-	height: 24px;
-	background-color: #9dda6e;
-	z-index: 100;
+    margin-top: 320px;
 }
 
 .jasa-bg {
-	background-color: #f7f7f980;
+    background-color: #f7f7f980;
 }
 
 .text-jasa {
-	padding: 0 130px;
+    padding: 0 0px;
 }
 
 .text-jasa-foto {
-	padding: 0 40px;
+    padding: 0 40px;
 }
 
 .bg-nav {
-	background-color: #fcfdfe;
-	padding-bottom: 50px;
+    background-color: #fcfdfe;
+    padding-bottom: 50px;
 }
 
 .bg-ui {
-	background-color: #e4edf0;
-	position: relative;
-	height: 825px;
+    background-color: #e4edf0;
+    position: relative;
+    height: 825px;
 }
 .profil {
-	background-color: #fcfdfe;
-	padding-bottom: 50px;
+    background-color: #fcfdfe;
+    padding-bottom: 50px;
 }
 .h1 {
-	font-size: 72px;
-	font-weight: 600px;
+    font-size: 72px;
+    font-weight: 600px;
 }
 .h3 {
-	font-size: 32px;
-	font-weight: 600px;
+    font-size: 32px;
+    font-weight: 600px;
 }
 .h5 {
-	font-size: 22px;
-	font-weight: 500px;
-	line-height: 32px;
+    font-size: 22px;
+    font-weight: 500px;
+    line-height: 32px;
 }
 .p {
-	font-size: 16px;
-	font-weight: 500px;
-	color: #787f84;
-	letter-spacing: -0.01em;
-	line-height: 28px;
+    font-size: 16px;
+    font-weight: 500px;
+    color: #787f84;
+    letter-spacing: -0.01em;
+    line-height: 28px;
 }
 
 .p-kontak {
-	font-size: 22px;
-	font-weight: 500px;
-	letter-spacing: -0.01em;
-	line-height: 28px;
+    font-size: 22px;
+    font-weight: 500px;
+    letter-spacing: -0.01em;
+    line-height: 28px;
 }
 
 .bnt {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	padding: 25px 50px;
-	gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 50px;
+    gap: 8px;
 
-	width: 116px;
-	height: 48px;
+    width: 116px;
+    height: 48px;
 
-	background: #2377fc;
-	box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-	border-radius: 48px;
-	margin-bottom: 150px;
+    background: #2377fc;
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    border-radius: 48px;
+    margin-bottom: 150px;
 }
 
 .icon {
-	display: flex;
-	justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .judul-mitra {
-	margin-top: 200px;
-	margin-bottom: 40px;
+    margin-top: 200px;
+    margin-bottom: 40px;
 }
 
 .form-mitra {
-	background-color: #f5f6f7;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	padding: 16px;
-	gap: 8px;
+    background-color: #f5f6f7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
 
-	width: 360px;
-	height: 56px;
-	border-radius: 8px;
+    width: 360px;
+    height: 56px;
+    border-radius: 8px;
 
-	margin-bottom: 25px;
-	justify-content: center;
-	padding-left: 55px;
+    margin-bottom: 25px;
+    justify-content: center;
+    padding-left: 55px;
 }
 
 .icon-m {
-	/* margin-left: 460px; */
-	position: relative;
+    /* margin-left: 460px; */
+    position: relative;
 }
 
 .btn-mitra {
-	margin-left: 10px;
-	padding: 10px 165px;
-	margin-bottom: 200px;
+    margin-left: 10px;
+    padding: 10px 165px;
+    margin-bottom: 200px;
 }
 
 .fm-email {
-	background: url("./asset/imgkontak/Vector.png") no-repeat left;
-	background-position: 2%;
+    background: url("./asset/imgkontak/Vector.png") no-repeat left;
+    background-position: 2%;
 }
 .fm-name {
-	background: url("./asset/imgkontak/name.png") no-repeat left;
-	background-position: 2%;
+    background: url("./asset/imgkontak/name.png") no-repeat left;
+    background-position: 2%;
 }
 .fm-company {
-	background: url("./asset/imgkontak/icon.png") no-repeat left;
-	background-position: 2%;
+    background: url("./asset/imgkontak/icon.png") no-repeat left;
+    background-position: 2%;
 }
 
 /* responsive home page */
 @media only screen and (min-width: 1440px) {
-	.navigasi {
-		padding-left: 900px;
-	}
-	.bulat-yellow {
-		position: absolute;
-		top: 2%;
-		left: 85%;
-		transform: translate(-50%, -50%);
-	}
-	.bulat-gray {
-		position: absolute;
-		top: 23%;
-		left: 17%;
-		transform: translate(-50%, -50%);
-	}
-	.bulat-blue {
-		position: absolute;
-		top: 52%;
-		left: 22%;
-		transform: translate(-50%, -50%);
-	}
-	.bulat-green {
-		position: absolute;
-		top: 43%;
-		left: 80%;
-		transform: translate(-50%, -50%);
-	}
-	.font-home {
-		font-size: 72px;
-	}
-	.home-img {
-		width: 677px;
-		height: 459px;
-	}
-	.jasa {
-		margin: 0 140px;
-		padding-top: 150px;
-		padding-bottom: 100px;
-	}
-	.jasa-img {
-		width: 634px;
-		height: 545px;
-	}
-	.logo-kecil {
-		margin-top: 330px;
-	}
-	.icon-mitra {
-		position: absolute;
-		left: 0;
-		top: 8px;
-		padding: 10px 38px;
-		margin-left: 457px;
-	}
-	.icon-mitra1 {
-		position: absolute;
-		left: 0;
-		top: 8px;
-		padding: 14px 38px;
-		margin-left: 457px;
-	}
-	.bulat {
-		margin-left: 613px;
-	}
-	.bulat1 {
-		margin-top: 160px;
-		margin-bottom: 24px;
-		border-radius: 100%;
-		width: 24px;
-		height: 24px;
-		background-color: #439ffe;
-		z-index: 100;
-	}
-	.lg-git {
-		margin-top: 8px;
-		width: 422px;
-		height: 422px;
-	}
-	.kinerja-text {
-		padding-right: 270px;
-		margin-top: 100px;
-		margin-left: 90px;
-		padding-bottom: 80px;
-	}
-	.kinerja {
-		padding-top: 60px;
-	}
-	.judul-jasa {
-		margin: 0 330px;
-	}
+    .bulat-yellow {
+        position: absolute;
+        top: 2%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat-gray {
+        position: absolute;
+        top: 23%;
+        left: 17%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat-blue {
+        position: absolute;
+        top: 52%;
+        left: 22%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat-green {
+        position: absolute;
+        top: 43%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    }
+    .font-home {
+        font-size: 72px;
+    }
+    .home-img {
+        width: 670px;
+        height: 450px;
+    }
+    .jasa {
+        margin: 0 px;
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    .jasa-img {
+        width: 600px;
+        height: 500px;
+    }
+    .logo-kecil {
+        margin-top: 330px;
+    }
+    .icon-mitra {
+        position: absolute;
+        left: 0;
+        top: 8px;
+        padding: 10px 38px;
+        margin-left: 457px;
+    }
+    .icon-mitra1 {
+        position: absolute;
+        left: 0;
+        top: 8px;
+        padding: 14px 38px;
+        margin-left: 457px;
+    }
+
+    .lg-git {
+        margin-top: 10%;
+        width: 422px;
+        height: 422px;
+    }
+    .kinerja-text {
+        padding-right: 270px;
+        margin-top: 100px;
+        margin-left: 90px;
+        padding-bottom: 80px;
+    }
+    .kinerja {
+        padding-top: 60px;
+    }
+    .judul-jasa {
+        margin: 0 330px;
+    }
+    .layout-font-misi {
+        position: absolute;
+        top: 9%;
+        left: 54%;
+        transform: translate(-50%, -50%);
+    }
+    .logo-git-misi {
+        position: absolute;
+        left: 4%;
+        top: 80%;
+    }
+    .bulat1 {
+        position: absolute;
+        border-radius: 100%;
+        width: 24px;
+        height: 24px;
+        background-color: #439ffe;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat2 {
+        position: absolute;
+        border-radius: 100%;
+        width: 24px;
+        height: 24px;
+        background-color: #d38bff;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat3 {
+        position: absolute;
+        border-radius: 100%;
+        width: 24px;
+        height: 24px;
+        background-color: #ef799c;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat4 {
+        position: absolute;
+        border-radius: 100%;
+        width: 24px;
+        height: 24px;
+        background-color: #9dda6e;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    /* .row-fotografi {
+        position: absolute;
+        top: 23%;
+        left: 55%;
+    } */
 }
-@media only screen and (min-width: 1025px) and (max-width: 1439px) {
-	.navigasi {
-		padding-left: 700px;
-	}
-	.font-home {
-		font-size: 40px;
-		padding-right: 200px;
-	}
-	.home-img {
-		width: 600px;
-		height: 459px;
-	}
-	.jasa-img {
-		width: 453px;
-		height: 384px;
-	}
-	.icon-mitra {
-		position: absolute;
-		left: 0;
-		top: 8px;
-		padding: 9px 0px;
-		margin-left: 410px;
-	}
-	.icon-mitra1 {
-		position: absolute;
-		left: 0;
-		top: 8px;
-		padding: 12px 0px;
-		margin-left: 410px;
-	}
-	.bulat-yellow {
-		position: absolute;
-		top: 2%;
-		left: 85%;
-		transform: translate(-50%, -50%);
-	}
-	.bulat-gray {
-		position: absolute;
-		top: 8%;
-		left: 15%;
-		transform: translate(-50%, -50%);
-	}
-	.bulat-blue {
-		position: absolute;
-		top: 52%;
-		left: 24%;
-		transform: translate(-50%, -50%);
-	}
-	.bulat-green {
-		position: absolute;
-		top: 43%;
-		left: 80%;
-		transform: translate(-50%, -50%);
-	}
-	.bulat {
-		margin-left: 523px;
-	}
-	.bulat1 {
-		margin-top: 180px;
-		margin-bottom: 24px;
-		border-radius: 100%;
-		width: 24px;
-		height: 24px;
-		background-color: #439ffe;
-		z-index: 100;
-	}
-	.logo-kecil {
-		margin-top: 330px;
-	}
-	.lg-git {
-		margin-top: 70px;
-		margin-left: 50px;
-		width: 306px;
-		height: 306px;
-	}
-	.kinerja-text {
-		padding-right: 230px;
-		margin-top: 60px;
-		margin-left: 60px;
-		padding-bottom: 80px;
-	}
-	.kinerja {
-		padding-top: 60px;
-	}
-	.judul-jasa {
-		margin: 0 300px;
-	}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    .font-home {
+        font-size: 40px;
+    }
+    .home-img {
+        width: 580px;
+        height: 440px;
+    }
+    .jasa-img {
+        width: 453px;
+        height: 384px;
+        position: absolute;
+        top: 20%;
+        left: 10%;
+    }
+    .icon-mitra {
+        position: absolute;
+        left: 0;
+        top: 8px;
+        padding: 9px 0px;
+        margin-left: 410px;
+    }
+    .icon-mitra1 {
+        position: absolute;
+        left: 0;
+        top: 8px;
+        padding: 12px 0px;
+        margin-left: 410px;
+    }
+    .bulat-yellow {
+        position: absolute;
+        top: 2%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat-gray {
+        position: absolute;
+        top: 8%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat-blue {
+        position: absolute;
+        top: 52%;
+        left: 24%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat-green {
+        position: absolute;
+        top: 43%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat {
+        margin-left: 523px;
+    }
+    .bulat1 {
+        position: absolute;
+        border-radius: 100%;
+        width: 24px;
+        height: 24px;
+        background-color: #439ffe;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat2 {
+        position: absolute;
+        border-radius: 100%;
+        width: 24px;
+        height: 24px;
+        background-color: #d38bff;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat3 {
+        position: absolute;
+        border-radius: 100%;
+        width: 24px;
+        height: 24px;
+        background-color: #ef799c;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat4 {
+        position: absolute;
+        border-radius: 100%;
+        width: 24px;
+        height: 24px;
+        background-color: #9dda6e;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .logo-kecil {
+        margin-top: 330px;
+    }
+    .lg-git {
+        width: 306px;
+        height: 306px;
+        margin-top: 30%;
+    }
+    .kinerja-text {
+        padding-right: 230px;
+        margin-top: 60px;
+        margin-left: 60px;
+        padding-bottom: 80px;
+    }
+    .kinerja {
+        padding-top: 60px;
+    }
+    .judul-jasa {
+        margin: 0 300px;
+    }
+    .layout-font-misi {
+        position: absolute;
+        top: 8%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+    }
+    .logo-git-misi {
+        position: absolute;
+        left: 6%;
+        top: 80%;
+    }
+    .row-fotografi {
+        position: absolute;
+        top: 15%;
+        left: 48%;
+    }
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-	.navigasi {
-		padding-left: 435px;
-	}
-	.home-img {
-		width: 450px;
-		height: 400px;
-	}
-	.jasa-img {
-		width: 550px;
-		height: 413px;
-	}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .home-img {
+        width: 450px;
+        height: 400px;
+    }
+    .font-home {
+    }
+    .font-home-center {
+        display: flex;
+        justify-content: center;
+    }
+    .hero-home {
+        text-align: center;
+        padding-left: 8%;
+    }
+    .jasa-img {
+        width: 550px;
+        height: 413px;
+    }
+    .logo-git-misi {
+        position: absolute;
+        left: 8%;
+        top: 28%;
+    }
+    .visi {
+        margin-top: 57px;
+        margin-bottom: 200px;
+    }
+    .lg-git {
+        width: 306px;
+        height: 306px;
+    }
+    .kinerja {
+        display: flex;
+        justify-content: center;
+    }
+    .kinerja-text {
+        max-width: 70%;
+        margin-bottom: 150px;
+    }
+    .bulat1 {
+        position: absolute;
+        border-radius: 100%;
+        width: 24px;
+        height: 24px;
+        background-color: #439ffe;
+        top: 40%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat2 {
+        position: absolute;
+        border-radius: 100%;
+        width: 24px;
+        height: 24px;
+        background-color: #d38bff;
+        top: 40%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat3 {
+        position: absolute;
+        border-radius: 100%;
+        width: 24px;
+        height: 24px;
+        background-color: #ef799c;
+        top: 40%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+    }
+    .bulat4 {
+        position: absolute;
+        border-radius: 100%;
+        width: 24px;
+        height: 24px;
+        background-color: #9dda6e;
+        top: 40%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-	.font-home {
-		font-size: 40px;
-		padding-right: 20px;
-	}
-	.jasa-img {
-		width: 280px;
-		height: 285px;
-	}
-	.jasa {
-		padding-top: 150px;
-		padding-bottom: 100px;
-	}
-	.home-img {
-		width: 661px;
-		height: 459px;
-	}
-	.logo-git {
-		display: none;
-	}
-	.navigasi {
-		padding-left: 0px;
-	}
-	.home-img {
-		width: 200px;
-		height: 200px;
-	}
-	.font-home {
-		font-size: 40px;
-	}
-	.logo-git {
-		width: 500px;
-		height: 500px;
-	}
-	.lg-git {
-		width: 253px;
-		height: 253px;
-	}
+    .font-home {
+        font-size: 40px;
+        padding-right: 20px;
+    }
+    .jasa-img {
+        width: 280px;
+        height: 285px;
+    }
+    .jasa {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    .home-img {
+        width: 661px;
+        height: 459px;
+    }
+    .navigasi {
+        padding-left: 0px;
+    }
+    .home-img {
+        width: 200px;
+        height: 200px;
+    }
+    .font-home {
+        font-size: 40px;
+    }
+    .logo-git {
+        width: 500px;
+        height: 500px;
+    }
+    .lg-git {
+        width: 253px;
+        height: 253px;
+    }
 
-	.hero {
-		padding-top: 60px;
-		padding-left: 20px;
-	}
+    .hero {
+        padding-top: 60px;
+        padding-left: 20px;
+    }
 
-	.hero-home {
-		padding-right: 10px;
-	}
-	.judul-jasa {
-		margin: 0 33px;
-	}
-	.form-mitra {
-		background-color: #f5f6f7;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		padding: 16px;
-		gap: 8px;
+    .hero-home {
+        padding-right: 10px;
+    }
+    .judul-jasa {
+        margin: 0 33px;
+    }
+    .form-mitra {
+        background-color: #f5f6f7;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 16px;
+        gap: 8px;
 
-		width: 330px;
-		height: 56px;
-		border-radius: 8px;
+        width: 330px;
+        height: 56px;
+        border-radius: 8px;
 
-		margin-bottom: 25px;
-		justify-content: center;
-		padding-left: 45px;
-	}
-	.icon-mitra {
-		position: absolute;
-		left: 0;
-		top: 8px;
-		padding: 9px 0px;
-		margin-left: 0px;
-	}
+        margin-bottom: 25px;
+        justify-content: center;
+        padding-left: 45px;
+    }
+    .icon-mitra {
+        position: absolute;
+        left: 0;
+        top: 8px;
+        padding: 9px 0px;
+        margin-left: 0px;
+    }
+    .icon-misi {
+        padding-left: 10%;
+    }
+    .visi {
+        margin-top: 57px;
+        margin-bottom: 200px;
+    }
+    .logo-git-misi {
+        position: absolute;
+        left: 11%;
+        top: 22%;
+    }
+    .margin-misi {
+    }
+    .kinerja-text {
+        margin-bottom: 100px;
+    }
 }
 /* akhir responsive home page */
 
 /* responsive profil */
 @media only screen and (min-width: 1440px) {
-	.fit-img-profil {
-		object-fit: contain;
-		width: 1285px;
-		height: 965px;
-	}
+    .fit-img-profil {
+        object-fit: contain;
+        width: 1285px;
+        height: 965px;
+    }
 
-	.bg-ui {
-		height: 960px;
-	}
+    .bg-ui {
+        height: 960px;
+    }
 
-	#footer-resp {
-		height: 300px;
-	}
+    #footer-resp {
+        height: 300px;
+    }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
-	.fit-img-profil {
-		object-fit: contain;
-		width: 905px;
-		height: 680px;
-	}
+    .fit-img-profil {
+        object-fit: contain;
+        width: 905px;
+        height: 680px;
+    }
 
-	.bg-ui {
-		height: 700px;
-	}
+    .bg-ui {
+        height: 700px;
+    }
 
-	#footer-resp {
-		height: 300px;
-	}
+    #footer-resp {
+        height: 300px;
+    }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-	.fit-img-profil {
-		object-fit: contain;
-		width: 752px;
-		height: 564px;
-	}
+    .fit-img-profil {
+        object-fit: contain;
+        width: 752px;
+        height: 564px;
+    }
 
-	.bg-ui {
-		height: 565px;
-	}
+    .bg-ui {
+        height: 565px;
+    }
 
-	#footer-resp {
-		height: 300px;
-	}
+    #footer-resp {
+        height: 300px;
+    }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-	.fit-img-profil {
-		object-fit: contain;
-		width: 350px;
-		height: 262px;
-	}
+    .fit-img-profil {
+        object-fit: contain;
+        width: 350px;
+        height: 262px;
+    }
 
-	.bg-ui {
-		height: 300px;
-	}
+    .bg-ui {
+        height: 300px;
+    }
 
-	#footer-resp {
-		height: 385px;
-	}
-	.visi {
-		margin-top: 16px;
-	}
+    #footer-resp {
+        height: 385px;
+    }
+    .visi {
+        margin-top: 16px;
+    }
 
-	.visi-img {
-		margin-top: 320px;
-	}
+    .visi-img {
+        margin-top: 320px;
+    }
 
-	.jasa-img {
-		width: 380px;
-		height: 275px;
-	}
-	/* .bulat {
+    .jasa-img {
+        width: 380px;
+        height: 275px;
+    }
+    /* .bulat {
 		margin-left: 60px;
 	} */
-	.jasa {
-		margin: 0;
-		padding-top: 150px;
-		padding-bottom: 100px;
-	}
-	.icon-mitra {
-		position: absolute;
-		left: 0;
-		top: 8px;
-		padding: 10px 43px;
-	}
-	.icon-mitra1 {
-		position: absolute;
-		left: 0;
-		top: 8px;
-		padding: 14px 43px;
-	}
-	.btn-mitra {
-		margin-left: 10px;
-		padding: 10px 150px;
-		margin-bottom: 180px;
-	}
+    .jasa {
+        margin: 0;
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    .icon-mitra {
+        position: absolute;
+        left: 0;
+        top: 8px;
+        padding: 10px 43px;
+    }
+    .icon-mitra1 {
+        position: absolute;
+        left: 0;
+        top: 8px;
+        padding: 14px 43px;
+    }
+    .btn-mitra {
+        margin-left: 10px;
+        padding: 10px 150px;
+        margin-bottom: 180px;
+    }
 }
 /* akhir responsive profil */
 
 /* responsive produk */
 @media only screen and (min-width: 1440px) {
-	.div-git {
-		display: flex;
-		justify-content: center;
-	}
+    .div-git {
+        display: flex;
+        justify-content: center;
+    }
 }
 @media only screen and (min-width: 1024px) {
-	.div-git {
-		display: flex;
-		justify-content: center;
-	}
+    .div-git {
+        display: flex;
+        justify-content: center;
+    }
 }
 @media only screen and (min-width: 768px) {
-	.div-git {
-		display: flex;
-		justify-content: center;
-	}
+    .div-git {
+        display: flex;
+        justify-content: center;
+    }
 }
 @media only screen and (max-width: 375px) {
-	.div-git {
-		margin-bottom: 40px;
-	}
+    .div-git {
+        margin-bottom: 40px;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
-	.img-card {
-		width: 425px;
-		height: 425px;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
-	.img-card-adjust {
-		width: 370px;
-		height: 330px;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
+    .img-card {
+        width: 425px;
+        height: 425px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .img-card-adjust {
+        width: 370px;
+        height: 330px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
-	.card {
-		background-color: #f5f6f7;
-		border-radius: 16px;
-		width: 600px;
-		height: 560px;
-		position: relative;
-		border: white;
-	}
+    .card {
+        background-color: #f5f6f7;
+        border-radius: 16px;
+        width: 600px;
+        height: 560px;
+        position: relative;
+        border: white;
+    }
 
-	.font-card {
-		font-size: 30px;
-		padding-top: 3px;
-	}
+    .font-card {
+        font-size: 30px;
+        padding-top: 3px;
+    }
 
-	.hero-relative {
-		position: relative;
-	}
+    .hero-relative {
+        position: relative;
+    }
 
-	.icon-blue {
-		position: absolute;
-		top: 23%;
-		left: 18%;
-		transform: translate(-50%, -50%);
-	}
-	.icon-blue1 {
-		position: absolute;
-		top: 65%;
-		left: 80%;
-		transform: translate(-50%, -50%);
-		width: 22px;
-		height: 22px;
-	}
-	.icon-green {
-		position: absolute;
-		top: 75%;
-		left: 69%;
-		transform: translate(-50%, -50%);
-	}
-	.icon-love {
-		position: absolute;
-		top: 25%;
-		left: 36%;
-		transform: translate(-50%, -50%);
-	}
-	.icon-smile {
-		position: absolute;
-		top: 75%;
-		left: 31%;
-		transform: translate(-50%, -50%);
-	}
-	.icon-yellow {
-		position: absolute;
-		top: 23%;
-		left: 66%;
-		transform: translate(-50%, -50%);
-	}
+    .icon-blue {
+        position: absolute;
+        top: 23%;
+        left: 18%;
+        transform: translate(-50%, -50%);
+    }
+    .icon-blue1 {
+        position: absolute;
+        top: 65%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        width: 22px;
+        height: 22px;
+    }
+    .icon-green {
+        position: absolute;
+        top: 75%;
+        left: 69%;
+        transform: translate(-50%, -50%);
+    }
+    .icon-love {
+        position: absolute;
+        top: 25%;
+        left: 36%;
+        transform: translate(-50%, -50%);
+    }
+    .icon-smile {
+        position: absolute;
+        top: 75%;
+        left: 31%;
+        transform: translate(-50%, -50%);
+    }
+    .icon-yellow {
+        position: absolute;
+        top: 23%;
+        left: 66%;
+        transform: translate(-50%, -50%);
+    }
 
-	.border-right-footer {
-		border-right: 1px solid #eeeeee;
-	}
+    .border-right-footer {
+        border-right: 1px solid #eeeeee;
+    }
 
-	.footer-gitnet {
-		display: flex;
-		justify-content: right;
-	}
+    .footer-gitnet {
+        display: flex;
+        justify-content: right;
+    }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
-	.img-card {
-		width: 330px;
-		height: 310px;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
-	.img-card-adjust {
-		width: 290px;
-		height: 280px;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
+    .img-card {
+        width: 330px;
+        height: 310px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .img-card-adjust {
+        width: 290px;
+        height: 280px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
-	.font-card {
-		font-size: 26px;
-		max-width: 140px;
-		padding-top: 0;
-		padding-bottom: 20px;
-	}
+    .font-card {
+        font-size: 26px;
+        max-width: 140px;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
 
-	.card {
-		background-color: #f5f6f7;
-		border-radius: 16px;
-		width: 400px;
-		height: 560px;
-		position: relative;
-		border: white;
-	}
+    .card {
+        background-color: #f5f6f7;
+        border-radius: 16px;
+        width: 400px;
+        height: 560px;
+        position: relative;
+        border: white;
+    }
 
-	.hero-relative {
-		position: relative;
-	}
+    .hero-relative {
+        position: relative;
+    }
 
-	.icon-blue {
-		position: absolute;
-		top: 20%;
-		left: 12%;
-		transform: translate(-50%, -50%);
-	}
-	.icon-blue1 {
-		position: absolute;
-		top: 65%;
-		left: 88%;
-		transform: translate(-50%, -50%);
-		width: 22px;
-		height: 22px;
-	}
-	.icon-green {
-		position: absolute;
-		top: 75%;
-		left: 69%;
-		transform: translate(-50%, -50%);
-	}
-	.icon-love {
-		position: absolute;
-		top: 25%;
-		left: 32%;
-		transform: translate(-50%, -50%);
-	}
-	.icon-smile {
-		position: absolute;
-		top: 75%;
-		left: 31%;
-		transform: translate(-50%, -50%);
-	}
-	.icon-yellow {
-		position: absolute;
-		top: 20%;
-		left: 78%;
-		transform: translate(-50%, -50%);
-	}
+    .icon-blue {
+        position: absolute;
+        top: 20%;
+        left: 12%;
+        transform: translate(-50%, -50%);
+    }
+    .icon-blue1 {
+        position: absolute;
+        top: 65%;
+        left: 88%;
+        transform: translate(-50%, -50%);
+        width: 22px;
+        height: 22px;
+    }
+    .icon-green {
+        position: absolute;
+        top: 75%;
+        left: 69%;
+        transform: translate(-50%, -50%);
+    }
+    .icon-love {
+        position: absolute;
+        top: 25%;
+        left: 32%;
+        transform: translate(-50%, -50%);
+    }
+    .icon-smile {
+        position: absolute;
+        top: 75%;
+        left: 31%;
+        transform: translate(-50%, -50%);
+    }
+    .icon-yellow {
+        position: absolute;
+        top: 20%;
+        left: 78%;
+        transform: translate(-50%, -50%);
+    }
 
-	.border-right-footer {
-		border-right: 1px solid #eeeeee;
-	}
+    .border-right-footer {
+        border-right: 1px solid #eeeeee;
+    }
 
-	.footer-gitnet {
-		display: flex;
-		justify-content: right;
-	}
+    .footer-gitnet {
+        display: flex;
+        justify-content: right;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-	.font-hero-produk {
-		font-size: 64px;
-	}
-	.img-card {
-		width: 210px;
-		height: 250px;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
-	.img-card-adjust {
-		width: 180px;
-		height: 220px;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
+    .font-hero-produk {
+        font-size: 64px;
+    }
+    .img-card {
+        width: 210px;
+        height: 250px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .img-card-adjust {
+        width: 180px;
+        height: 220px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
-	.card {
-		background-color: #f5f6f7;
-		border-radius: 16px;
-		width: 285px;
-		height: 475px;
-		position: relative;
-		border: white;
-	}
+    .card {
+        background-color: #f5f6f7;
+        border-radius: 16px;
+        width: 285px;
+        height: 475px;
+        position: relative;
+        border: white;
+    }
 
-	.card-d-none {
-		display: none;
-	}
+    .card-d-none {
+        display: none;
+    }
 
-	.font-card {
-		position: absolute;
-		top: 15%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		font-size: 26px;
-		white-space: nowrap;
-	}
+    .font-card {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 26px;
+        white-space: nowrap;
+    }
 
-	.btn-absolute {
-		position: absolute;
-		top: 85%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
+    .btn-absolute {
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
-	.text-git {
-		font-size: 10px;
-	}
+    .text-git {
+        font-size: 10px;
+    }
 
-	.hero-relative {
-		position: relative;
-	}
+    .hero-relative {
+        position: relative;
+    }
 
-	.icon-blue {
-		position: absolute;
-		top: 20%;
-		left: 12%;
-		transform: translate(-50%, -50%);
-	}
-	.icon-blue1 {
-		position: absolute;
-		top: 65%;
-		left: 88%;
-		transform: translate(-50%, -50%);
-		width: 22px;
-		height: 22px;
-	}
-	.icon-green {
-		position: absolute;
-		top: 75%;
-		left: 69%;
-		transform: translate(-50%, -50%);
-	}
-	.icon-love {
-		position: absolute;
-		top: 25%;
-		left: 32%;
-		transform: translate(-50%, -50%);
-	}
-	.icon-smile {
-		position: absolute;
-		top: 75%;
-		left: 31%;
-		transform: translate(-50%, -50%);
-	}
-	.icon-yellow {
-		position: absolute;
-		top: 20%;
-		left: 78%;
-		transform: translate(-50%, -50%);
-	}
+    .icon-blue {
+        position: absolute;
+        top: 20%;
+        left: 12%;
+        transform: translate(-50%, -50%);
+    }
+    .icon-blue1 {
+        position: absolute;
+        top: 65%;
+        left: 88%;
+        transform: translate(-50%, -50%);
+        width: 22px;
+        height: 22px;
+    }
+    .icon-green {
+        position: absolute;
+        top: 75%;
+        left: 69%;
+        transform: translate(-50%, -50%);
+    }
+    .icon-love {
+        position: absolute;
+        top: 25%;
+        left: 32%;
+        transform: translate(-50%, -50%);
+    }
+    .icon-smile {
+        position: absolute;
+        top: 75%;
+        left: 31%;
+        transform: translate(-50%, -50%);
+    }
+    .icon-yellow {
+        position: absolute;
+        top: 20%;
+        left: 78%;
+        transform: translate(-50%, -50%);
+    }
 
-	.border-right-footer {
-		border-right: 1px solid #eeeeee;
-	}
+    .border-right-footer {
+        border-right: 1px solid #eeeeee;
+    }
 
-	.footer-gitnet {
-		display: flex;
-		justify-content: right;
-	}
+    .footer-gitnet {
+        display: flex;
+        justify-content: right;
+    }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-	.logo-git {
-		display: none;
-	}
-	.font-hero-produk {
-		font-size: 48px;
-	}
-	.font-hero-produk {
-		max-width: 250px;
-	}
-	.img-card {
-		width: 210px;
-		height: 250px;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
-	.img-card-adjust {
-		width: 180px;
-		height: 220px;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
+    .logo-git {
+        display: none;
+    }
+    .font-hero-produk {
+        font-size: 48px;
+    }
+    .font-hero-produk {
+        max-width: 250px;
+    }
+    .img-card {
+        width: 210px;
+        height: 250px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .img-card-adjust {
+        width: 180px;
+        height: 220px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
-	.font-card {
-		position: absolute;
-		top: 15%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		font-size: 26px;
-		white-space: nowrap;
-	}
+    .font-card {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 26px;
+        white-space: nowrap;
+    }
 
-	.card {
-		background-color: #f5f6f7;
-		border-radius: 16px;
-		width: 327px;
-		height: 471px;
-		position: relative;
-		border: white;
-	}
+    .card {
+        background-color: #f5f6f7;
+        border-radius: 16px;
+        width: 327px;
+        height: 471px;
+        position: relative;
+        border: white;
+    }
 
-	.card-d-none {
-		display: none;
-	}
+    .card-d-none {
+        display: none;
+    }
 
-	.btn-absolute {
-		position: absolute;
-		top: 85%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
+    .btn-absolute {
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
-	.margin-bottom-card {
-		margin-bottom: 50px;
-	}
+    .margin-bottom-card {
+        margin-bottom: 50px;
+    }
 
-	.hero-relative {
-		position: relative;
-	}
+    .hero-relative {
+        position: relative;
+    }
 
-	.icon-blue {
-		position: absolute;
-		top: 28%;
-		left: 12%;
-		transform: translate(-50%, -50%);
-		width: 22px;
-		height: 22px;
-	}
-	.icon-blue1 {
-		position: absolute;
-		top: 65%;
-		left: 88%;
-		transform: translate(-50%, -50%);
-		width: 22px;
-		height: 22px;
-	}
-	.icon-green {
-		position: absolute;
-		top: 85%;
-		left: 80%;
-		transform: translate(-50%, -50%);
-	}
-	.icon-love {
-		position: absolute;
-		top: 22%;
-		left: 34%;
-		transform: translate(-50%, -50%);
-	}
-	.icon-smile {
-		position: absolute;
-		top: 75%;
-		left: 15%;
-		transform: translate(-50%, -50%);
-	}
-	.icon-yellow {
-		position: absolute;
-		top: 20%;
-		left: 78%;
-		transform: translate(-50%, -50%);
-	}
+    .icon-blue {
+        position: absolute;
+        top: 28%;
+        left: 12%;
+        transform: translate(-50%, -50%);
+        width: 22px;
+        height: 22px;
+    }
+    .icon-blue1 {
+        position: absolute;
+        top: 65%;
+        left: 88%;
+        transform: translate(-50%, -50%);
+        width: 22px;
+        height: 22px;
+    }
+    .icon-green {
+        position: absolute;
+        top: 85%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    }
+    .icon-love {
+        position: absolute;
+        top: 22%;
+        left: 34%;
+        transform: translate(-50%, -50%);
+    }
+    .icon-smile {
+        position: absolute;
+        top: 75%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+    }
+    .icon-yellow {
+        position: absolute;
+        top: 20%;
+        left: 78%;
+        transform: translate(-50%, -50%);
+    }
 
-	.footer-gitnet {
-		display: flex;
-		justify-content: center;
-	}
+    .footer-gitnet {
+        display: flex;
+        justify-content: center;
+    }
 
-	.footer-produk {
-		position: absolute;
-		top: 20%;
-		left: 20%;
-		transform: translate(-50%, -50%);
-	}
+    .footer-produk {
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+    }
 
-	.footer-perusahaan {
-		position: absolute;
-		top: 58%;
-		left: 17%;
-		transform: translate(-50%, -50%);
-	}
+    .footer-perusahaan {
+        position: absolute;
+        top: 58%;
+        left: 17%;
+        transform: translate(-50%, -50%);
+    }
 
-	.footer-img {
-		position: absolute;
-		top: 90%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
+    .footer-img {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
 /* akhir responsive produk */
 
 /* responsive kontak */
 @media only screen and (min-width: 1440px) {
-	.text-form {
-		background-color: #f5f6f7;
-		padding: 0px;
-		gap: 8px;
+    .text-form {
+        background-color: #f5f6f7;
+        padding: 0px;
+        gap: 8px;
 
-		width: 1120px;
-		height: 82px;
-		border-radius: 8px;
+        width: 1120px;
+        height: 82px;
+        border-radius: 8px;
 
-		margin-bottom: 25px;
-		padding-left: 60px;
-	}
+        margin-bottom: 25px;
+        padding-left: 60px;
+    }
 
-	.fmt {
-		padding: 28px 50px;
-		gap: 8px;
-		background: #f5f6f7;
-		border-radius: 8px;
-	}
+    .fmt {
+        padding: 28px 50px;
+        gap: 8px;
+        background: #f5f6f7;
+        border-radius: 8px;
+    }
 
-	.textarea-width {
-		width: 1120px;
-	}
+    .textarea-width {
+        width: 1120px;
+    }
 
-	.fm-textarea {
-		position: absolute;
-		top: 9%;
-		left: 3%;
-		transform: translate(-50%, -50%);
-	}
+    .fm-textarea {
+        position: absolute;
+        top: 9%;
+        left: 3%;
+        transform: translate(-50%, -50%);
+    }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
-	.text-form {
-		background-color: #f5f6f7;
-		padding: 0px;
-		gap: 8px;
+    .text-form {
+        background-color: #f5f6f7;
+        padding: 0px;
+        gap: 8px;
 
-		width: 800px;
-		height: 82px;
-		border-radius: 8px;
+        width: 800px;
+        height: 82px;
+        border-radius: 8px;
 
-		margin-bottom: 25px;
-		padding-left: 60px;
-	}
+        margin-bottom: 25px;
+        padding-left: 60px;
+    }
 
-	.fmt {
-		padding: 28px 50px;
-		gap: 8px;
-		background: #f5f6f7;
-		border-radius: 8px;
-	}
+    .fmt {
+        padding: 28px 50px;
+        gap: 8px;
+        background: #f5f6f7;
+        border-radius: 8px;
+    }
 
-	.textarea-width {
-		width: 800px;
-	}
+    .textarea-width {
+        width: 800px;
+    }
 
-	.fm-textarea {
-		position: absolute;
-		top: 9%;
-		left: 3%;
-		transform: translate(-50%, -50%);
-	}
+    .fm-textarea {
+        position: absolute;
+        top: 9%;
+        left: 3%;
+        transform: translate(-50%, -50%);
+    }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-	.text-form {
-		background-color: #f5f6f7;
-		padding: 0px;
-		gap: 8px;
+    .text-form {
+        background-color: #f5f6f7;
+        padding: 0px;
+        gap: 8px;
 
-		width: 608px;
-		height: 82px;
-		border-radius: 8px;
+        width: 608px;
+        height: 82px;
+        border-radius: 8px;
 
-		margin-bottom: 25px;
-		padding-left: 60px;
-	}
+        margin-bottom: 25px;
+        padding-left: 60px;
+    }
 
-	.fmt {
-		padding: 28px 50px;
-		gap: 8px;
-		background: #f5f6f7;
-		border-radius: 8px;
-	}
+    .fmt {
+        padding: 28px 50px;
+        gap: 8px;
+        background: #f5f6f7;
+        border-radius: 8px;
+    }
 
-	.textarea-width {
-		width: 608px;
-	}
+    .textarea-width {
+        width: 608px;
+    }
 
-	.fm-textarea {
-		position: absolute;
-		top: 9%;
-		left: 4%;
-		transform: translate(-50%, -50%);
-	}
+    .fm-textarea {
+        position: absolute;
+        top: 9%;
+        left: 4%;
+        transform: translate(-50%, -50%);
+    }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-	.header-font {
-		font-size: 48px;
-	}
-	.text-form {
-		background-color: #f5f6f7;
-		padding: 0px;
-		gap: 8px;
+    .header-font {
+        font-size: 48px;
+    }
+    .text-form {
+        background-color: #f5f6f7;
+        padding: 0px;
+        gap: 8px;
 
-		width: 311px;
-		height: 82px;
-		border-radius: 8px;
+        width: 311px;
+        height: 82px;
+        border-radius: 8px;
 
-		margin-bottom: 25px;
-		padding-left: 60px;
-	}
+        margin-bottom: 25px;
+        padding-left: 60px;
+    }
 
-	.fmt {
-		padding: 28px 50px;
-		gap: 8px;
-		background: #f5f6f7;
-		border-radius: 8px;
-	}
+    .fmt {
+        padding: 28px 50px;
+        gap: 8px;
+        background: #f5f6f7;
+        border-radius: 8px;
+    }
 
-	.textarea-width {
-		width: 311px;
-	}
+    .textarea-width {
+        width: 311px;
+    }
 
-	.fm-email {
-		background: url("./asset/imgkontak/Vector.png") no-repeat left;
-		background-position: 8%;
-	}
-	.fm-name {
-		background: url("./asset/imgkontak/name.png") no-repeat left;
-		background-position: 8%;
-	}
-	.fm-company {
-		background: url("./asset/imgkontak/icon.png") no-repeat left;
-		background-position: 8%;
-	}
+    .fm-email {
+        background: url("./asset/imgkontak/Vector.png") no-repeat left;
+        background-position: 8%;
+    }
+    .fm-name {
+        background: url("./asset/imgkontak/name.png") no-repeat left;
+        background-position: 8%;
+    }
+    .fm-company {
+        background: url("./asset/imgkontak/icon.png") no-repeat left;
+        background-position: 8%;
+    }
 
-	.fm-textarea {
-		position: absolute;
-		top: 9%;
-		left: 11%;
-		transform: translate(-50%, -50%);
-	}
+    .fm-textarea {
+        position: absolute;
+        top: 9%;
+        left: 11%;
+        transform: translate(-50%, -50%);
+    }
 }
 /* akhir responsive kontak */
