@@ -410,7 +410,7 @@
 		height: 24px;
 		background-color: #439ffe;
 		top: 35%;
-		left: 51%;
+		left: 50%;
 		transform: translate(-50%, -50%);
 	}
 	.bulat2 {
@@ -420,7 +420,7 @@
 		height: 24px;
 		background-color: #d38bff;
 		top: 45%;
-		left: 51%;
+		left: 50%;
 		transform: translate(-50%, -50%);
 	}
 	.bulat3 {
@@ -430,7 +430,7 @@
 		height: 24px;
 		background-color: #ef799c;
 		top: 55%;
-		left: 51%;
+		left: 50%;
 		transform: translate(-50%, -50%);
 	}
 	.bulat4 {
@@ -440,18 +440,21 @@
 		height: 24px;
 		background-color: #9dda6e;
 		top: 65%;
-		left: 51%;
+		left: 50%;
 		transform: translate(-50%, -50%);
 	}
 
 	.garis {
-		border-right: 1px rgba(158, 153, 153, 0.5) solid;
+		border-left: 1px rgba(158, 153, 153, 0.5) solid;
 	}
 	.font-head {
 		font-size: 72px;
 	}
 	.visi {
 		width: 380px;
+	}
+	.vgaris {
+		border-right: 1px rgba(158, 153, 153, 0.5) solid;
 	}
 }
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
@@ -670,7 +673,7 @@
 		height: 24px;
 		background-color: #439ffe;
 		top: 33%;
-		left: 51%;
+		left: 50%;
 		transform: translate(-50%, -50%);
 	}
 	.bulat2 {
@@ -680,7 +683,7 @@
 		height: 24px;
 		background-color: #d38bff;
 		top: 43%;
-		left: 51%;
+		left: 50%;
 		transform: translate(-50%, -50%);
 	}
 	.bulat3 {
@@ -690,7 +693,7 @@
 		height: 24px;
 		background-color: #ef799c;
 		top: 53%;
-		left: 51%;
+		left: 50%;
 		transform: translate(-50%, -50%);
 	}
 	.bulat4 {
@@ -700,7 +703,7 @@
 		height: 24px;
 		background-color: #9dda6e;
 		top: 63%;
-		left: 51%;
+		left: 50%;
 		transform: translate(-50%, -50%);
 	}
 	.logo-kecil {
@@ -716,7 +719,7 @@
 		max-width: 70%;
 	}
 	.garis {
-		border-right: 1px rgba(158, 153, 153, 0.5) solid;
+		border-left: 1px rgba(158, 153, 153, 0.5) solid;
 	}
 	.judul-jasa {
 		margin: 0 250px;
@@ -739,6 +742,9 @@
 	}
 	.font-head {
 		font-size: 48px;
+	}
+	.vgaris {
+		border-right: 1px rgba(158, 153, 153, 0.5) solid;
 	}
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -978,7 +984,7 @@
 		transform: translate(-50%, -50%);
 	}
 	.garis {
-		border-bottom: 1px rgba(158, 153, 153, 0.5) solid;
+		border-top: 1px rgba(158, 153, 153, 0.5) solid;
 	}
 	.jasa-bg .row-jasa {
 		display: flex !important;
@@ -1032,6 +1038,9 @@
 	}
 	.font-head {
 		font-size: 48px;
+	}
+	.vgaris {
+		border-bottom: 1px rgba(158, 153, 153, 0.5) solid;
 	}
 }
 
@@ -1236,16 +1245,19 @@
 		padding: 9px 0px;
 		margin-left: 0px;
 	}
+	.vgaris {
+		border-bottom: 1px rgba(158, 153, 153, 0.5) solid;
+	}
 
 	.visi {
-		margin-top: 57px;
+		padding-top: 15px;
 		margin-bottom: 200px;
 	}
 	.logo-git-misi {
 		position: absolute;
 		left: 11%;
 		top: 22%;
-		margin-top: 50px;
+		margin-top: 85px;
 	}
 	.margin-misi {
 		width: 191px;
@@ -1370,7 +1382,7 @@
 		transform: translate(-50%, -50%);
 	}
 	.garis {
-		border-bottom: 1px rgba(158, 153, 153, 0.5) solid;
+		border-top: 1px rgba(158, 153, 153, 0.5) solid;
 	}
 	.lg-git {
 		width: 306px;
